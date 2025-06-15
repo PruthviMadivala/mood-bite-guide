@@ -1,0 +1,68 @@
+
+const sampleRecipes = [
+  {
+    title: "Classic Tomato Soup",
+    image: "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=600&q=80",
+    veg: true,
+    ingredients: ["Tomatoes", "Onion", "Garlic", "Cream", "Bread"],
+    tags: ["comfort", "warm", "soup", "classic"],
+    prepTime: 25,
+    why: "Tomato soup is a classic comfort food that's warm and soothing on sad or chilly days.",
+  },
+  {
+    title: "Avocado Toast Duo",
+    image: "https://images.unsplash.com/photo-1465146344425-f00d5f5c8f07?fit=crop&w=600&q=80",
+    veg: true,
+    ingredients: ["Bread", "Avocado", "Lemon", "Seeds"],
+    tags: ["quick", "easy", "fun", "snack", "comfy"],
+    prepTime: 7,
+    why: "Avocado toast is an easy, cheerful snack perfect for happy or lazy moods.",
+  },
+  {
+    title: "Spicy Chicken Ramen",
+    image: "https://images.unsplash.com/photo-1618160702438-9b02ab6515c9?fit=crop&w=600&q=80",
+    veg: false,
+    ingredients: ["Chicken", "Ramen noodles", "Scallion", "Egg", "Broth"],
+    tags: ["hot", "warming", "broth", "soup", "energy"],
+    prepTime: 30,
+    why: "Spicy ramen brings energy and warmth, great for cold or energetic moods.",
+  },
+  {
+    title: "Berry Power Bowl",
+    image: "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?fit=crop&w=600&q=80",
+    veg: true,
+    ingredients: ["Mixed Berries", "Yogurt", "Granola", "Honey"],
+    tags: ["healthy", "colorful", "energy", "relax"],
+    prepTime: 12,
+    why: "A vitamin-rich bowl for a health boost, ideal when you’re sick or craving brightness.",
+  },
+  {
+    title: "Chocolate Lava Mug Cake",
+    image: "https://images.unsplash.com/photo-1519864600265-abb23847ef2c?fit=crop&w=600&q=80",
+    veg: true,
+    ingredients: ["Flour", "Cocoa", "Sugar", "Milk", "Egg"],
+    tags: ["dessert", "comfort", "quick", "soothing"],
+    prepTime: 5,
+    why: "A quick, soothing treat for stressed or sad moods—chocolate always helps!",
+  },
+  {
+    title: "Veggie Stir-Fry",
+    image: "https://images.unsplash.com/photo-1458642849426-cfb724f15ef7?fit=crop&w=600&q=80",
+    veg: true,
+    ingredients: ["Mixed Veggies", "Tofu", "Soy Sauce", "Rice"],
+    tags: ["healthy", "colorful", "quick", "few ingredients"],
+    prepTime: 18,
+    why: "Colorful, quick, and nutritious stir-fry is a great way to feel refreshed.",
+  },
+  {
+    title: "BBQ Chicken Sliders",
+    image: "https://images.unsplash.com/photo-1601050690597-c0c98e01b396?fit=crop&w=600&q=80",
+    veg: false,
+    ingredients: ["Chicken", "BBQ Sauce", "Bread", "Coleslaw"],
+    tags: ["party", "snack", "comfy", "energy"],
+    prepTime: 25,
+    why: "Perfect for parties and excitement—BBQ sliders are a handheld mood-lifter.",
+  },
+];
+
+export default sampleRecipes;
